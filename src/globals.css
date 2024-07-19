@@ -29,7 +29,7 @@
         --chart-3: 197 37% 24%;
         --chart-4: 43 74% 66%;
         --chart-5: 27 87% 67%;
-        --wallpaper: url(https://pub-0ddb692f07df43ec90fbe04a67a6c3e8.r2.dev/bgmenu.jpg);
+        --wallpaper: url(/bgmenu.webp);
         --m-wallpaper: url(background.jpg);
     }
 
@@ -58,7 +58,7 @@
         --chart-3: 30 80% 55%;
         --chart-4: 280 65% 60%;
         --chart-5: 340 75% 55%;
-        --wallpaper: url(https://pub-0ddb692f07df43ec90fbe04a67a6c3e8.r2.dev/dark.png);
+        --wallpaper: url(/bgmenu.webp);
     }
 }
 

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './globals.css'
 import {Switch} from "@/components/ui/switch.tsx";
+import {ScrollArea} from "@/components/ui/scroll-area.tsx";
 
 const Switcher = () => {
     type Themes = "dark" | "light"
@@ -20,9 +21,11 @@ const Switcher = () => {
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-      <Switcher/>
-      <div className={'w-full flex h-full justify-center items-center'}>
-          <App/>
-      </div>
+      <ScrollArea>
+          <div className={'w-full flex h-full justify-center items-center'}>
+              <Switcher/>
+              <App/>
+          </div>
+      </ScrollArea>
   </React.StrictMode>,
 )

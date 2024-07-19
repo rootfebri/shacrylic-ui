@@ -2,7 +2,6 @@
 module.exports = {
     darkMode: ["class"],
     content: [
-        './index.html',
         './src/**/*.{ts,tsx}',
     ],
     prefix: "",
@@ -36,6 +35,7 @@ module.exports = {
                 ring: "hsl(var(--ring))",
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",
+                wpSecondary: "var(--wp-secondary)",
                 primary: {
                     DEFAULT: "hsl(var(--primary))",
                     foreground: "hsl(var(--primary-foreground))",
