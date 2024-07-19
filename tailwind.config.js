@@ -92,5 +92,5 @@ module.exports = {
             backdropBlur: ['supports-backdrop-filter'],
         },
     },
-    plugins: [require("tailwindcss-animate"),],
+    plugins: [require("tailwindcss-animate"), require('tailwind-scrollbar-hide')],
 }
