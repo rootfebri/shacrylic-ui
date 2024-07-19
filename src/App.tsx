@@ -42,6 +42,7 @@ const App: React.FC<CardProps> = ({className, ...props}) => {
                             </p>
                         </div>
                         <Switch onClick={toggleTheme}/>
+                        <Switch/>
                     </div>
                     <div>
                         {notifications.map((notification, index) => (<div
