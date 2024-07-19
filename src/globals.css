@@ -74,4 +74,7 @@
   .acrylic {
     @apply backdrop-blur-xl dark:supports-[backdrop-filter]:bg-background/50 supports-[backdrop-filter]:bg-background/60;
   }
+  .btn-acrylic {
+    @apply backdrop-blur-xl dark:supports-[backdrop-filter]:bg-secondary/50 supports-[backdrop-filter]:bg-background/60;
+  }
 }
