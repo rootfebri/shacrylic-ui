@@ -13,6 +13,7 @@ dist-ssr
 *.local
 src-tauri/target
 target
+bun.lockb
 
 # Editor directories and files
 .vscode/*
