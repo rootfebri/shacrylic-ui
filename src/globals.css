@@ -88,3 +88,27 @@
         --wallpaper: var(--m-wallpaper);
     }
 }
+
+@supports (backdrop-filter: blur(12px)) {
+    .acrylic {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+
+    .btn-acrylic {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+}
+
+@supports (backdrop-filter: blur(16px)) {
+    .acrylic {
+        -webkit-backdrop-filter: blur(16px);
+        backdrop-filter: blur(16px);
+    }
+
+    .btn-acrylic {
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+    }
+}
